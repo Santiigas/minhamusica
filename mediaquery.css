@@ -1,0 +1,13 @@
+@media (min-width: 1024px){
+    .titulo > h1 {
+        font-size: 40px;
+    }
+    
+    .titulo > p{
+        font-size: 15px;
+    }
+    
+    .playlist{
+        flex-direction: row; /*Eixo principal*/
+    }
+}
