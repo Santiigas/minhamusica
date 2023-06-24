@@ -15,12 +15,12 @@ body {
 
 .titulo{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .titulo > h1 {
     font-family: 'Montserrat', sem serifa;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 800;
     color: rgb(93, 150, 255);
     margin: auto;
@@ -37,17 +37,17 @@ body {
 
 .playlist{
     display: flex;
-    flex-direction: column; /*Eixo principal*/
-    justify-content: center; /*Eixo principal*/
+    flex-direction: column; 
+    justify-content: center; 
     align-items: center;
     flex-wrap: wrap;
     gap: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .musica{
-    width: 270px;
-    height: 350px;
+    width: 280px;
+    height: 360px;
     border-radius: 30px;
     background: #5709aa;
     box-shadow:  7px 9px 40px #3a0474c2,
@@ -103,15 +103,9 @@ body {
 .spotify > a > h1 {
     text-decoration:solid;
     font-family:'Montserrat', sem serifa;
-    color: #010008;
+    color: #ffffff;
     font-size: 15px;
     text-shadow: none;
-}
-
-.spotify > a > h1:hover{
-    color: white;
-    font-size: 15px;
-    font-weight: 800;
 }
 
 .imagem{
@@ -123,19 +117,54 @@ body {
 }
 
 #imagem1{
-    background-image: url(imagens/postmalone.jpg);
+    background-image: url(../imagens/postmalone.jpg);
     background-size: cover;
     box-shadow: 0px 0px 10px #010008;
 }
 
 #imagem2{
-    background-image: url(imagens/harrystyles.jpg);
+    background-image: url(../imagens/harrystyles.jpg);
     background-size: cover;
     box-shadow: 0px 0px 10px #f0decaa2
 }
 
 #imagem3{
-    background-image: url(imagens/redbone.jpg);
+    background-image: url(../imagens/redbone.jpg);
     background-size: cover;
     box-shadow: 0px 0px 10px #d3251c77
+}
+
+.rodape{
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.rodape > h1{
+    font-family: 'Montserrat', sem serifa;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#botao{
+    width: 280px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(93, 150, 255);
+}
+
+.rodape > #botao > h1 {
+    font-family: 'Montserrat', sem serifa;
+    color: #4b0696;
+    font-size: 50px;
+    font-weight: 800;
+    font-size: 22px;
+    margin: auto;
 }

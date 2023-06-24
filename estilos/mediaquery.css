@@ -8,6 +8,6 @@
     }
     
     .playlist{
-        flex-direction: row; /*Eixo principal*/
+        flex-direction: row; 
     }
 }
